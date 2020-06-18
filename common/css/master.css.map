@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,KAAM;EACJ,KAAK,EAAE,KAAK;EAEZ,OAAE;IACA,MAAM,EAAE,OAAO;IACf,UAAG;MACD,KAAK,EAAE,IAAI;EAGf,WAAM;IACJ,SAAS,EAAE,KAAK",
-"sources": ["../../sass/common/css/master.scss"],
-"names": [],
-"file": "master.css"
-}
