@@ -70,9 +70,10 @@ h1 {
   background: #fff;
 }
 .content-inner {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 10px 0 30px;
+  padding: 10px 10px 30px;
 }
 
 /* ----------------------------------------------------------------
