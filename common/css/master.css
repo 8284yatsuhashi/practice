@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*色縛り
-/* #dfceb4,#4d4d4d,#41648c,#a2d7dd,#e6b36e,#da4747 */
+/* #dfceb4（茶）,#4d4d4d,#41648c（紺）,#a2d7dd（水色）,#e6b36e(オレンジ),#da4747(赤) */
 
 /* ----------------------------------------------------------------
   base
@@ -15,7 +15,7 @@ body {
 }
 
 
-dl,dt,dd,ul, p, a {
+div,dl,dt,dd,ul, p, a {
   font-size: 1.6rem;
 }
 
@@ -122,6 +122,7 @@ h1 {
   margin-top: -5px;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 .list-anc ul > li {
   display: inline-block;
