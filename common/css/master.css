@@ -160,6 +160,21 @@ h1 {
   border-radius: 50px;
 }
 
+/* .list-report
+----------------------------------------------- */
+.list-report {
+  margin-top: 20px;
+}
+
+.list-report dt {
+  color: #41648c;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.list-report dd > *:last-child {
+  margin-top: 5px;
+}
+
 /* ----------------------------------------------------------------
   box
 ----------------------------------------------------------------- */
