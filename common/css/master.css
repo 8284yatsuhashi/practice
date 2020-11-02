@@ -156,8 +156,9 @@ h1 {
 /* box-comment
 ----------------------------------------------- */
 .box-02 {
-  border: solid 1px #ccc;
+  margin-top: 20px;
   padding: 10px 5px;
+  border: solid 1px #ccc;
 }
 .box-02 > *:last-child {
   margin-bottom: 0;
