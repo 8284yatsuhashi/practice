@@ -210,8 +210,28 @@ h1 {
 /* ----------------------------------------------------------------
   lyt
 ----------------------------------------------------------------- */
+/* lyt-column
+----------------------------------------------- */
 .lyt-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4%;
+}
+.lyt-column_col > :last-child {
+  margin-bottom: 0;
+}
 
+.lyt-column_col > :last-child {
+  margin-bottom: 0;
+}
+
+/* col-02 */
+.lyt-column.col-02 > .lyt-column_col {
+  width: 46%;
+  margin-left: 4%;
+}
+.lyt-column.col-02 > .lyt-column_col:nth-of-type(n+3) {
+  margin-top: 40px;
 }
 
 
