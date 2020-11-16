@@ -15,7 +15,7 @@ body {
 }
 
 
-div,dl,dt,dd,ul, p, a {
+h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,li, p, a {
   font-size: 1.6rem;
 }
 
@@ -23,9 +23,10 @@ ul {
   margin: 0;
 }
 
- p {
+p {
   color: #000;
- }
+  margin: 0 0 20px;
+}
 
 a {
   color: #000;
@@ -81,7 +82,7 @@ h1 {
 ----------------------------------------------------------------- */
 .hdg-l2 {
   margin: 30px 0 10px;
-  color: #000;
+  color: #4d4d4d;
   text-align: center;
   font-size: 3.2rem;
 }
@@ -116,6 +117,8 @@ h1 {
 /* ----------------------------------------------------------------
   list
 ----------------------------------------------------------------- */
+/* .list-anc
+----------------------------------------------- */
 .list-anc {
   margin-top: 20px;
   padding: 10px;
@@ -137,6 +140,45 @@ h1 {
   display: inline-block;
   min-width: 150px;
   padding: 10px 5px;
+}
+
+/* .list-01
+----------------------------------------------- */
+.list-01 {
+  margin-top: 20px;
+  padding-left: 25px;
+  list-style: none;
+}
+
+.list-01 > li {
+  position: relative;
+}
+
+.list-01 > li::before {
+  position: absolute;
+  top: 9px;
+  left: -12px;
+  display: block;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: #da4747;
+  border-radius: 50px;
+}
+
+/* .list-report
+----------------------------------------------- */
+.list-report {
+  margin-top: 20px;
+}
+
+.list-report dt {
+  color: #41648c;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.list-report dd > :last-child {
+  margin-top: 5px;
 }
 
 /* ----------------------------------------------------------------
@@ -193,6 +235,45 @@ h1 {
   padding: 10px 5px;
   background: #dfceb4;
 }
+/* box-02
+----------------------------------------------- */
+.box-02 {
+  margin-top: 20px;
+  padding: 10px 5px;
+  border: solid 1px #ccc;
+}
+.box-02 > :last-child {
+  margin-bottom: 0;
+}
+
+
+/* ----------------------------------------------------------------
+  lyt
+----------------------------------------------------------------- */
+/* lyt-column
+----------------------------------------------- */
+.lyt-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4%;
+}
+.lyt-column_col > :last-child {
+  margin-bottom: 0;
+}
+
+.lyt-column_col > :last-child {
+  margin-bottom: 0;
+}
+
+/* col-02 */
+.lyt-column.col-02 > .lyt-column_col {
+  width: 46%;
+  margin-left: 4%;
+}
+.lyt-column.col-02 > .lyt-column_col:nth-of-type(n+3) {
+  margin-top: 40px;
+}
+
 
 /* ----------------------------------------------------------------
   helper
